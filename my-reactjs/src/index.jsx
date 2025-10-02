@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.css';
 
 //Компоненти не писати і не використовувати
 //class App extends React.Component {}
