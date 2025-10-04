@@ -25,6 +25,7 @@ const RegisterPage = () => {
             <h1 className={"text-center"}>Реєстрація</h1>
             <div className="row">
                 <form onSubmit={onSubmit} className={"col-md-6 offset-md-3"}>
+
                     <TextFieldBase
                         label={"Електронна пошта"}
                         field={`email`}
