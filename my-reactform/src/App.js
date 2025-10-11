@@ -39,7 +39,6 @@ const App = () => {
             <h3 className={"text-center"}>Для роботи із класами - classnames</h3>
 
             <form onSubmit={handleSubmit} noValidate className={"col-md-6 offset-md-3"}>
-
                 <EmailInput
                     label={"Вкажіть Email"}
                     field={"email"}
@@ -48,7 +47,6 @@ const App = () => {
                     value={values.email}
                     onChange={handleChange}
                 />
-
                 <PasswordInput
                     label={"Вкажіть пароль"}
                     field={"password"}
@@ -57,11 +55,6 @@ const App = () => {
                     value={values.password}
                     onChange={handleChange}
                 />
-
-                {/*<div className="mb-3">*/}
-                {/*    <label htmlFor="exampleInputPassword1" className="form-label">Password</label>*/}
-                {/*    <input type="password" className="form-control" id="exampleInputPassword1"/>*/}
-                {/*</div>*/}
                 <button type="submit" className="btn btn-primary">Вхід</button>
             </form>
         </>
