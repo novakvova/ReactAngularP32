@@ -26,7 +26,7 @@ class TodoStore extends EventEmitter {
 //створили наш Store
 const todoStore = new TodoStore();
 AppDispatcher.register((action) => {
-   switch (action.type) {
+   switch (action.actionType) {
        case 'ADD_TODO':
            _todos.push({id: Date.now(), text: action.text});
            todoStore.emitChange();
