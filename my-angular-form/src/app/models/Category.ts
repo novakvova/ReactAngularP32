@@ -8,7 +8,7 @@ export interface ICategory {
 export interface ICategoryCreate {
   name: string;
   slug: string;
-  imageFile?: File | null;
+  image?: File | null;
 }
 
 export interface ICategoryEdit {

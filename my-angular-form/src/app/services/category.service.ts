@@ -15,9 +15,9 @@ export class CategoryService {
     return this.http.get<ICategory[]>(this.apiURL + "categories/list");
   }
 
-  createCategory(formData: FormData) {
+  createCategory(model: ICategoryCreate) {
 
-    return this.http.post(this.apiURL + "categories/create", formData);
+    return this.http.post(this.apiURL + "categories/add", model);
   }
 
   deleteCategory(id: number) {
