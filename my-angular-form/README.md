@@ -8,6 +8,7 @@ ng generate component pages/category/create
 
 ng generate component pages/home
 
+ng generate interceptor interceptors/auth
 ```
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.

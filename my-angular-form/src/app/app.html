@@ -17,10 +17,16 @@
 
 <main>
   <div class="container pt-5">
-    <a class="btn btn-primary"
-       routerLink="/category/create">
-      Додати
-    </a>
+    <div class="mt-3">
+      <a class="btn btn-primary"
+         routerLink="/category/create">
+        Додати
+      </a>
+
+      <button class="btn btn-success" (click)="onSetTokenAuth()">Записати токен</button>
+      <button class="btn btn-danger" (click)="onDeleteTokenAuth()">Видалити токен</button>
+    </div>
+
 
     <router-outlet></router-outlet>
   </div>
